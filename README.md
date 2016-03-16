@@ -11,7 +11,7 @@ Pass build argument for building image behind proxy
 
 # Create a certificate
 
-    docker run --rm -it --name openssl \ 
+    docker run --rm -it --name openssl \
     	-e  KEY_NAME=mykey \
     	-e  COUNTRY_NAME=FR \
     	-e  PROVINCE_NAME=France \
